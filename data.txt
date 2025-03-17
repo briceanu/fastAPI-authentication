@@ -1,0 +1,5 @@
+python3 -m venv blog_env
+source ./blog_env/bin/activate
+alembic init alembic
+pip install 'fastAPI[standard]'
+pip freeze requirements.txt
